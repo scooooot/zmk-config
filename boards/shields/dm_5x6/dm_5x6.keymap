@@ -26,7 +26,7 @@
 &kp CAPS    &kp A    &kp S     &kp D       &kp F     &kp G             &kp H    &kp J        &kp K       &kp L     &kp SEMI   &kp SQT  
 &kp LCTRL   &kp Z    &kp X     &kp C       &kp V     &kp B             &kp N    &kp M        &kp COMMA   &kp DOT   &kp SLSH   &kp ENTER
             &kp LC(LG(LEFT))   &mo 2                                                         &mo 2       &kp RC(RG(RIGHT))  
-                               &kp LSHIFT  &kp ESC                              &kp SPACE    RSHIFT     
+                               &kp LSHIFT  &kp ESC                              &kp SPACE    &kp RSHIFT     
                                            &kp DEL   &mo 1          &kp BSPC    &kp RCTRL  
                                            &kp LALT  &none          &kp LGUI    &none  
             >;
