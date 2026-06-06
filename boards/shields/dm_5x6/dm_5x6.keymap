@@ -30,7 +30,7 @@
                                      &kp LC(LG(LEFT))   &mo 2                                                &mo 2       &kp RC(RG(RIGHT))  
                                                &kp LSHIFT  &kp ESC                              &kp SPACE    &kp RSHIFT  
                                                            &kp DEL   &mo 1          &kp BSPC    &kp RCTRL  
-                                                           &kp LALT  &none          &kp LGUI    &none
+                                                           &kp LALT  &mo 3          &kp LGUI    &none
             >;
         };
         layer_one { // layer1
@@ -57,6 +57,19 @@
                                                        &trans         &trans                                                   &trans          &trans 
                                                                       &trans        &trans                   &trans            &trans 
                                                                       &trans        &trans                   &trans            &trans
+            >;
+        };
+        layer_three { // layer3, for bluetooth functions
+            display-name = "Layer3";
+            bindings = <
+                &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &none  &none  &none  &none  &none  &none 
+                &none  &none         &none         &none         &none         &none            &none  &none  &none  &none  &none  &none 
+                &none  &none         &none         &none         &none         &none            &none  &none  &none  &none  &none  &none 
+                &none  &none         &none         &bt BT_CLR    &none         &none            &none  &none  &none  &none  &none  &none 
+                                     &none         &none                                                      &none  &none 
+                                                   &none         &none                                 &none  &none 
+                                                                 &none         &none            &none  &none 
+                                                                 &none         &none            &none  &none
             >;
         };
     };
