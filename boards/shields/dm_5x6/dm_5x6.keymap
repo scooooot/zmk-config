@@ -51,7 +51,7 @@
             bindings = <
                 &trans   &trans         &trans         &trans         &trans        &trans                   &trans            &trans          &trans       &trans          &trans     &trans 
                 &trans   &trans         &kp LS(N9)     &kp LS(N0)     &kp LS(SQT)   &kp SQT                  &kp LS(N6)        &kp LS(MINUS)   &kp LS(N8)   &kp LS(N4)      &trans     &trans 
-                &trans   &kp LS(N2)     &kp LBKT       &kp RBKT       &kp EQUAL     &kp LS(SEMI)             &kp LS(COMMA)     &kp LS(GRAVE)   &kp GRAVE    &kp LS(COMMA)   &trans     &trans 
+                &trans   &kp LS(N2)     &kp LBKT       &kp RBKT       &kp EQUAL     &kp LS(SEMI)             &kp LS(COMMA)     &kp LS(GRAVE)   &kp GRAVE    &kp LS(PERIOD)  &trans     &trans 
                 &trans   &trans         &kp LS(LBKT)   &kp LS(RBKT)   &kp MINUS     &kp LS(MINUS)            &trans            &kp LS(BSLH)    &trans       &trans          &kp BSLH   &trans 
                                         &kp LC(X)      &trans                                                                                  &trans       &kp LC(X) 
                                                        &trans         &trans                                                   &trans          &trans 
